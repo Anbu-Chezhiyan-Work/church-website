@@ -4,18 +4,18 @@ export default function Header() {
 
   return (
     <div className="w-full p-[24px] absolute z-1">
-      <div className="flex justify-between">
+      <div className="flex justify-between font-bold">
         <div className="flex">
           {leftValues.map((value) => (
-            <div className="pr-[20px]">{value}</div>
+            <div className=" pr-[20px]">{value}</div>
           ))}
         </div>
-        <div>
+        <div className="pr-[30px]">
           <div>RELIGIOUS</div>
         </div>
         <div className="flex">
           {rightValues.map((value) => (
-            <div className="pr-[10px]">{value}</div>
+            <div className=" pr-[20px]">{value}</div>
           ))}
         </div>
       </div>
