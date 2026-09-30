@@ -1,27 +1,27 @@
 export const programs = [
   {
-    img: "/public/assets/images/Education.jpg",
+    img: "/assets/images/Education.jpg",
     title: "Education",
     subtitle: "Vocations Support",
     description:
       "Support the training and formation of future priests, religious sisters, and brothers through a donation campaign that helps cover the costs of their education and living expenses.",
   },
   {
-    img: "/public/assets/images/Deveopment.jpg",
+    img: "/assets/images/Deveopment.jpg",
     title: "Development",
     subtitle: "Church Renovation Fund",
     description:
       " Raise money for the renovation and maintenance of Catholic churches, cathedrals, and other religious buildings, preserving these sacred spaces for future generations.",
   },
   {
-    img: "/public/assets/images/Service.jpg",
+    img: "/assets/images/Service.jpg",
     title: "Emergency",
     subtitle: "Crisis Relief Fund",
     description:
       "Provide emergency relief and support to communities affected by natural disasters, conflicts, or other crises, in partnership with Catholic relief organizations.",
   },
   {
-    img: "/public/assets/images/social.jpg",
+    img: "/assets/images/social.jpg",
     title: "Healthcare",
     subtitle: "Social Justice Initiatives",
     description:
@@ -33,21 +33,21 @@ export const events = [
   {
     title: "Virtual Bible Study Series",
     location: "Online",
-    date: +new Date(),
+    date: "September 30, 2026",
     schedule: [
       {
         time: "07:00 pm",
-        img: "https://cdn.pixabay.com/photo/2019/07/22/05/14/bible-4354183_640.jpg",
+        img: "https://images.unsplash.com/photo-1507434965995-757f60374d7b?auto=format&fit=crop&q=80&w=800",
         desc: "Intro and Overview of the Book of Genesis",
       },
       {
         time: "08:00 pm",
-        img: "/public/assets/images/event images 2.png",
+        img: "/assets/images/event images 2.png",
         desc: "Group Discussions and Reflections",
       },
       {
         time: "10:00 pm",
-        img: "/public/assets/images/event image 3.jpg",
+        img: "/assets/images/event image 3.jpg",
         desc: "Intro and Overview of the Book of Genesis",
       },
     ],
@@ -59,17 +59,17 @@ export const events = [
     schedule: [
       {
         time: "08:00 am",
-        img: "/public/assets/images/event image 4.jpg",
+        img: "/assets/images/event image 4.jpg",
         desc: "Importance of the Family in the Church",
       },
       {
         time: "10:00 am",
-        img: "/public/assets/images/event image 5.jpg",
-        desc: "Workshops on Family Communication",
+        img: "/assets/images/event image 5.jpg",
+        desc: "Importance of the Family in the Church",
       },
       {
         time: "03:00 pm",
-        img: "/public/assets/images/event image 6.jpg",
+        img: "/assets/images/event image 6.jpg",
         desc: "Importance of the Family in the Church",
       },
     ],
@@ -82,17 +82,17 @@ export const events = [
     schedule: [
       {
         time: "10:00 am",
-        img: "/public/assets/images/event image 7.jpg",
+        img: "/assets/images/event image 7.jpg",
         desc: "Importance of Youth Ministry in the Church",
       },
       {
         time: "01:00 pm",
-        img: "/public/assets/images/event image 8.jpeg",
+        img: "/assets/images/event image 8.jpeg",
         desc: "Sharing of Best Practices",
       },
       {
         time: "02:00 pm",
-        img: "/public/assets/images/event image 9.jpg",
+        img: "/assets/images/event image 9.jpg",
         desc: "Importance of Youth Ministry in the Church",
       },
     ],
@@ -100,7 +100,109 @@ export const events = [
 ];
 
 export const missionImage = [
-  "/public/assets/images/heroimage1.jpg",
-  "/public/assets/images/heroimage2.jpg",
-  "/public/assets/images/heroimage3.jpg",
+  "/assets/images/heroimage1.jpg",
+  "/assets/images/heroimage2.jpg",
+  "/assets/images/heroimage3.jpg",
+];
+
+export const sermons = [
+  {
+    id: "s1",
+    title: "Finding Peace in Chaos",
+    speaker: "Pastor Michael Smith",
+    date: "September 20, 2026",
+    description: "A journey through the Psalms to discover tranquility in a restless world.",
+    audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    img: "https://images.unsplash.com/photo-1490730141103-6",
+    isFeatured: true,
+  },
+  {
+    id: "s2",
+    title: "The Power of Grace",
+    speaker: "Pastor Jane Smith",
+    date: "September 13, 2026",
+    description: "Understanding the unconditional love of God and how it transforms our identity.",
+    audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    img: "https://images.unsplash.com/photo-1507692049790-7bc3757737f6",
+    isFeatured: false,
+  },
+  {
+    id: "s3",
+    title: "Walking by Faith",
+    speaker: "Pastor John Doe",
+    date: "September 6, 2026",
+    description: "Practical biblical steps to trust God's plan when the path ahead is unclear.",
+    audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    img: "https://images.unsplash.com/photo-1515033617990-7bc3757737e3",
+    isFeatured: false,
+  },
+];
+
+export const visitData = {
+  serviceTimes: [
+    { day: "Sunday", time: "9:00 AM & 11:00 AM", type: "Main Service" },
+    { day: "Wednesday", time: "7:00 PM", type: "Mid-week Prayer" },
+  ],
+  faqs: [
+    {
+      question: "What should I wear?",
+      answer: "Come as you are! While some prefer traditional attire, most of our congregation wears casual or business-casual clothing."
+    },
+    {
+      question: "Where do I park?",
+      answer: "We have a spacious parking lot available. Look for the 'Guest Parking' signs near the main entrance."
+    },
+    {
+      question: "What about my children?",
+      answer: "Our Kids' Ministry provides a safe and engaging environment for children from birth through 5th grade."
+    },
+  ]
+};
+
+export const leadership = [
+  {
+    name: "Pastor Michael Smith",
+    role: "Lead Pastor",
+    bio: "With over 20 years of ministry, Pastor Michael is passionate about bridging the gap between ancient scripture and modern living.",
+    image: "https://images.unsplash.com/photo-1566492031759-44ce37d67c7c",
+  },
+  {
+    name: "Pastor Jane Smith",
+    role: "Associate Pastor",
+    bio: "Jane leads our mission to serve the marginalized, believing that faith is best expressed through radical acts of love.",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
+  },
+  {
+    name: "Elder John Doe",
+    role: "Head of Outreach",
+    bio: "John leads our mission initiatives, focusing on bringing the Gospel to the marginalized and underserved.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228fbc",
+  },
+];
+
+export const testimonials = [
+  {
+    name: "Sarah Johnson",
+    memberSince: "2018",
+    quote: "Finding this community was the turning point in my spiritual journey. I finally feel seen, heard, and loved exactly as I am.",
+    image: "https://images.unsplash.com/photo-1438761681033-6",
+  },
+  {
+    name: "David Chen",
+    memberSince: "2021",
+    quote: "The teachings here don't just stay in the sanctuary—they challenge me to be a better husband, father, and citizen.",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43f",
+  },
+  {
+    name: "Maria Garcia",
+    memberSince: "2022",
+    quote: "I've never felt more welcome. The sermons are challenging yet comforting, and the small groups provide a real sense of belonging.",
+    image: "https://images.unsplash.com/photo-1494790108377-L",
+  },
+];
+
+export const givingFunds = [
+  { id: 'general', label: 'General Fund', description: 'Supports daily operations and ministry.' },
+  { id: 'missions', label: 'Missions', description: 'Funding global outreach and relief.' },
+  { id: 'building', label: 'Building Fund', description: 'Investing in our future sacred spaces.' },
 ];
