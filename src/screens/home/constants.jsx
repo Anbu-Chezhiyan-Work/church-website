@@ -1,27 +1,27 @@
 export const programs = [
   {
-    img: "/assets/images/Education.jpg",
+    img: "/assets/images/Education.webp",
     title: "Education",
     subtitle: "Vocations Support",
     description:
       "Support the training and formation of future priests, religious sisters, and brothers through a donation campaign that helps cover the costs of their education and living expenses.",
   },
   {
-    img: "/assets/images/Deveopment.jpg",
+    img: "/assets/images/Deveopment.webp",
     title: "Development",
     subtitle: "Church Renovation Fund",
     description:
       " Raise money for the renovation and maintenance of Catholic churches, cathedrals, and other religious buildings, preserving these sacred spaces for future generations.",
   },
   {
-    img: "/assets/images/Service.jpg",
+    img: "/assets/images/Service.webp",
     title: "Emergency",
     subtitle: "Crisis Relief Fund",
     description:
       "Provide emergency relief and support to communities affected by natural disasters, conflicts, or other crises, in partnership with Catholic relief organizations.",
   },
   {
-    img: "/assets/images/social.jpg",
+    img: "/assets/images/social.webp",
     title: "Healthcare",
     subtitle: "Social Justice Initiatives",
     description:
@@ -100,9 +100,9 @@ export const events = [
 ];
 
 export const missionImage = [
-  "/assets/images/heroimage1.jpg",
-  "/assets/images/heroimage2.jpg",
-  "/assets/images/heroimage3.jpg",
+  "/assets/images/heroimage1.webp",
+  "/assets/images/heroimage2.webp",
+  "/assets/images/heroimage3.webp",
 ];
 
 export const sermons = [
@@ -113,7 +113,7 @@ export const sermons = [
     date: "September 20, 2026",
     description: "A journey through the Psalms to discover tranquility in a restless world.",
     audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    img: "https://images.unsplash.com/photo-1490730141103-6",
+    img: "/assets/images/finding-peace.png",
     isFeatured: true,
   },
   {
@@ -134,6 +134,16 @@ export const sermons = [
     description: "Practical biblical steps to trust God's plan when the path ahead is unclear.",
     audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
     img: "https://images.unsplash.com/photo-1515033617990-7bc3757737e3",
+    isFeatured: false,
+  },
+  {
+    id: "s4",
+    title: "Strength in Adversity",
+    speaker: "Pastor Sarah Williams",
+    date: "August 30, 2026",
+    description: "Exploring how challenges in life can become catalysts for spiritual growth and resilience.",
+    audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    img: "https://images.unsplash.com/photo-1438032863028-b75155d0a1c8",
     isFeatured: false,
   },
 ];
@@ -164,19 +174,19 @@ export const leadership = [
     name: "Pastor Michael Smith",
     role: "Lead Pastor",
     bio: "With over 20 years of ministry, Pastor Michael is passionate about bridging the gap between ancient scripture and modern living.",
-    image: "https://images.unsplash.com/photo-1566492031759-44ce37d67c7c",
+    image: "/assets/images/leadership1_new.png",
   },
   {
     name: "Pastor Jane Smith",
     role: "Associate Pastor",
     bio: "Jane leads our mission to serve the marginalized, believing that faith is best expressed through radical acts of love.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
+    image: "/assets/images/leadership2.png",
   },
   {
     name: "Elder John Doe",
     role: "Head of Outreach",
     bio: "John leads our mission initiatives, focusing on bringing the Gospel to the marginalized and underserved.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228fbc",
+    image: "/assets/images/leadership3.png",
   },
 ];
 

@@ -1,13 +1,18 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function AboutUs() {
   return (
     <section className="w-full py-24 px-6 bg-white">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1">
-          <img
-            src="https://images.unsplash.com/photo-1438032349696-7d9915126143"
-            alt="Church Interior"
+          <motion.img
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            src="/assets/images/about-us.png"
+            alt="About Our Community"
             className="rounded-3xl shadow-2xl transition-transform duration-500 hover:scale-[1.02]"
           />
         </div>

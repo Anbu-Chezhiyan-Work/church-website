@@ -164,7 +164,7 @@ const Bible = () => {
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl transform -rotate-2 hover:rotate-0 transition-transform duration-700">
             <img
               className="w-full h-[500px] object-cover"
-              src="/assets/images/bible-modern.jpg"
+              src="/assets/images/bible-modern.webp"
               alt="Modern Bible"
             />
             <div className="absolute inset-0 bg-primary/10 mix-blend-multiply" />
