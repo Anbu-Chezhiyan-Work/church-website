@@ -42,12 +42,12 @@ export const events = [
       },
       {
         time: "08:00 pm",
-        img: "/assets/images/event images 2.png",
+        img: "https://images.unsplash.com/photo-1504052433848-17a279777414?auto=format&fit=crop&q=80&w=800",
         desc: "Group Discussions and Reflections",
       },
       {
         time: "10:00 pm",
-        img: "/assets/images/event image 3.jpg",
+        img: "https://images.unsplash.com/photo-1438761681033-6",
         desc: "Intro and Overview of the Book of Genesis",
       },
     ],
@@ -59,17 +59,17 @@ export const events = [
     schedule: [
       {
         time: "08:00 am",
-        img: "/assets/images/event image 4.jpg",
+        img: "https://images.unsplash.com/photo-1511895497565-cb9689a97f75?auto=format&fit=crop&q=80&w=800",
         desc: "Importance of the Family in the Church",
       },
       {
         time: "10:00 am",
-        img: "/assets/images/event image 5.jpg",
+        img: "https://images.unsplash.com/photo-1543269865-cbf427efad32?auto=format&fit=crop&q=80&w=800",
         desc: "Importance of the Family in the Church",
       },
       {
         time: "03:00 pm",
-        img: "/assets/images/event image 6.jpg",
+        img: "https://images.unsplash.com/photo-1516627145494-738778269100?auto=format&fit=crop&q=80&w=800",
         desc: "Importance of the Family in the Church",
       },
     ],
@@ -82,17 +82,17 @@ export const events = [
     schedule: [
       {
         time: "10:00 am",
-        img: "/assets/images/event image 7.jpg",
+        img: "https://images.unsplash.com/photo-1529070757047-8a5431644308?auto=format&fit=crop&q=80&w=800",
         desc: "Importance of Youth Ministry in the Church",
       },
       {
         time: "01:00 pm",
-        img: "/assets/images/event image 8.jpeg",
+        img: "https://images.unsplash.com/photo-1509062522246-3755977927a7?auto=format&fit=crop&q=80&w=800",
         desc: "Sharing of Best Practices",
       },
       {
         time: "02:00 pm",
-        img: "/assets/images/event image 9.jpg",
+        img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=800",
         desc: "Importance of Youth Ministry in the Church",
       },
     ],
